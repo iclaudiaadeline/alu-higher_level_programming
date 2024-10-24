@@ -1,4 +1,8 @@
+#!/usr/bin/python3
+
+
 def print_last_digit(number):
-    last_digit = abs(number) % 10  # Get the absolute value of the last digit
-    print(last_digit, end="")      # Print the last digit without a newline
-    return last_digit              # Return the last digit
+    positive = abs(number)
+    last_digit = positive % 10
+    print(f"{last_digit:d}", end="")
+    return last_digit
