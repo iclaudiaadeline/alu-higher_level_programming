@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-
-
-def print_last_digit(number):
-    positive = abs(number)
-    last_digit = positive % 10
-    print(f"{last_digit:d}", end="")
-    return last_digit
+import random
+number = random.randint(-10, 10)
+if number > 0:
+    print(f"{number} is positive")
+elif number == 0:
+    print(f"{number} is zero")
+else:
+    print(f"{number} is negative")
