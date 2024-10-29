@@ -1,4 +1,4 @@
-#!/usr/bin/pyhthon3
+#!/usr/bin/python3
 def safe_print_list(my_list=[], x=0
 
   count = 0
@@ -9,4 +9,4 @@ def safe_print_list(my_list=[], x=0
       except IndexError:
           pass  # ignore the error when ex is greater than the length of my_list
       print() # print a newline at the end
-      return count
+      return cout
