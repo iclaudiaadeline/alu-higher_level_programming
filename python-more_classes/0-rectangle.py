@@ -9,5 +9,4 @@ class Rectangle:
     class that defines rectangle
     """
 
-
     pass
