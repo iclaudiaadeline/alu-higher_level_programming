@@ -2,8 +2,12 @@
 """
 a module that defines recatngle
 """
+
+
 class Rectangle:
     """
     class that defines rectangle
     """
+
+
     pass
