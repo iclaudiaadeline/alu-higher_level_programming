@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 module that defeines rectangle
 """
@@ -8,8 +7,7 @@ module that defeines rectangle
 class Rectangle:
     """
     classs that defines rectangle
-"""
-
+    """
 
 def __init__(self, width=0, height=0):
         self.width = width
