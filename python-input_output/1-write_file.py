@@ -1,17 +1,16 @@
 #!/usr/bin/python3
-"""Module 0-read_file.
-Reads from a file and prints.
+"""Module 1-write_file.
+Writes in a text file.
 """
 
 
-def read_file(filename=""):
-    """Reads from filename and prints
-    its contents to stdout.
-
+def write_file(filename="", text=""):
+    """Writes text in filename.
     Args:
         - filename: name of the file
+        - text: string to write in the file
+    Returns: number of characters written
     """
 
-    with open(filename) as f:
-        read_text = f.read()
-        print(read_text, end="")
+    with open(filename, 'w+') as f:
+        return f.write(text)
